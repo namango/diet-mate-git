@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" description="Minyoung" />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="icon" href="./imgs/favicon.png" />
+    <script
+      src="https://kit.fontawesome.com/55a84d5ff3.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <script src="./main.js" defer></script>
+    <title>Your Diet Mate - Check Our Site for Your Body!</title>
+  </head>
+  <body>
+    <header>
+      <nav id="navbar">
+        <div class="navbar__logo">
+          <i class="fas fa-user-friends"></i>
+          <span>Diet Mate</span>
+        </div>
+        <div class="navbar__menu">
+          <button class="contact-us">Contact Us</button>
+          <button id="sign-in">Sign In</button>
+        </div>
+      </nav>
+      <h1>Make Your body healty, <br />Every Day With Diet Mate</h1>
+      <div class="header-imgs">
+        <img src="./imgs/food.png" class="header-img-1" alt="" />
+        <img src="./imgs/workout.png" class="header-img-2" alt="" />
+        <img src="./imgs/dumbel.png" class="header-img-3" alt="" />
+      </div>
+    </header>
+
+    <!--------------------Sign Up PopUp Content-------------------->
+    <div class="modal-root">
+      <div class="modal">
+        <div class="sign-up__msg">
+          <h2>Sign In</h2>
+          <p>and <br />Check What you can do with Diet Mate</p>
+        </div>
+        <form action="/action_page.php">
+          <input type="text" placeholder="Enter Username" name="uname" />
+          <input type="password" placeholder="Enter Your Password" />
+          <button type="submit">Login</button>
+          <span><input type="checkbox" />remember me</span>
+        </form>
+      </div>
+    </div>
+
+    <!--------------------Instruction-------------------->
+    <section class="instruction">
+      <div class="container">
+        <div class="instruction-item">
+          <img src="#" alt="" />
+          <h2>Work Out</h2>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
